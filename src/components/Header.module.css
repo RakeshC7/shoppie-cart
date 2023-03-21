@@ -1,0 +1,45 @@
+.darkNavbar{
+    padding: 10px 20px;
+    background-color: #0e042d;
+}
+.brandLogo{
+    max-height: 28px;
+}
+.searchBar{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff !important;
+}
+.searchBar:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.dropdownMenu{
+    min-width: initial;
+    width: 100%;
+}
+.gradientBtn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right top, #faff00, #ffdc7a, #ffd7dc, #ffeeff, #ffffff);
+    background-image: linear-gradient( 220deg,hsl(61deg 100% 50%) 0%, hsl(62deg 100% 64%) 7%, hsl(62deg 100% 70%) 14%, hsl(62deg 100% 74%) 20%, hsl(62deg 100% 78%) 26%, hsl(62deg 100% 81%) 31%, hsl(62deg 100% 84%) 37%, hsl(62deg 100% 87%) 43%, hsl(62deg 100% 89%) 49%, hsl(62deg 100% 92%) 57%, hsl(62deg 100% 94%) 66%, hsl(62deg 100% 96%) 77%, hsl(62deg 100% 98%) 88%, hsl(0deg 0% 100%) 100%);
+}
+.gradientBtn:after{
+    border-top-color: #0e042d;
+}
+.btnBadge{
+    background-color: transparent !important;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0e042d;
+}
